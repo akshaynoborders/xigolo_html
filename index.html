@@ -3,203 +3,235 @@
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
       <meta content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
-      <title>XWISH - ANGELIUM</title>
+      <title>XIgolo - ANGELIUM</title>
       <!-- Fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Wire+One|Quicksand|Nunito+Sans|Old+Standard+TT&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Wire+One|Quicksand|Julius+Sans+One|Nunito+Sans|Old+Standard+TT&display=swap" rel="stylesheet">
       <!-- Links -->
       <link rel="icon" type="image/x-icon" href="images/favicon.png">
       <!-- Custom Style -->
       <link href="fonts/fonts.css" rel="stylesheet">
-      <link rel="stylesheet" media="all" href="css/xwish.css">
-      <link rel="stylesheet" media="all" href="css/main.css">
+      <link rel="stylesheet" media="all" href="css/xigolo_main.css">
    </head>
    <body>
-      <nav class="navbar navbar-expand-lg navbar-light text-dark animated fixed-top transparent">
-         <div class="container">
-         <a class="navbar-brand" href="/">
-            <span class="icon">X</span> XWish
-            <!-- <img src="/static/assets/xwish/images/xwishlogo.png"> -->
-         </a>
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <svg class="svg-inline--fa fa-bars fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
-               <path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path>
-            </svg>
-            <!-- <i class="fas fa-bars"></i> -->
-         </button>
-         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <ul class="navbar-nav mx-auto position-relative">
-               <li class="nav-item">
-                  <a class="nav-link" href="/en/ready_for/">Ready For</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link about_more" href="/en/search_campaign/">Search</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="/en/about/">About</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="/en/contact_us/">Contact</a>
-               </li>
-            </ul>
-         </div>
-         <div class="more-menu" id="more-menu">
-            <ul class="unstyled">
-               <li>
-                  <div class="search_campaign_msg">
-                     Search campaign by selecting category.
-                  </div>
-               </li>
-               <li>
-                  <ul class="category clearfix">
-                     <li>
-                        <svg class="svg-inline--fa fa-angle-right fa-w-8" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg="">
-                           <path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path>
-                        </svg>
-                        <!-- <i class="fas fa-angle-right"></i> --><a id="hnav_menu_category_art" title="Birthday Party" href="/en/search_campaign/?category=18">Birthday Party</a>
-                     </li>
-                     <li>
-                        <svg class="svg-inline--fa fa-angle-right fa-w-8" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg="">
-                           <path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path>
-                        </svg>
-                        <!-- <i class="fas fa-angle-right"></i> --><a id="hnav_menu_category_art" title="Social good" href="/en/search_campaign/?category=17">Social good</a>
-                     </li>
-                     <li>
-                        <svg class="svg-inline--fa fa-angle-right fa-w-8" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg="">
-                           <path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path>
-                        </svg>
-                        <!-- <i class="fas fa-angle-right"></i> --><a id="hnav_menu_category_art" title="Beauty Healthcare" href="/en/search_campaign/?category=16">Beauty Healthcare</a>
-                     </li>
-                     <li>
-                        <svg class="svg-inline--fa fa-angle-right fa-w-8" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg="">
-                           <path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path>
-                        </svg>
-                        <!-- <i class="fas fa-angle-right"></i> --><a id="hnav_menu_category_art" title="Challenge" href="/en/search_campaign/?category=15">Challenge</a>
-                     </li>
-                     <li>
-                        <svg class="svg-inline--fa fa-angle-right fa-w-8" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg="">
-                           <path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path>
-                        </svg>
-                        <!-- <i class="fas fa-angle-right"></i> --><a id="hnav_menu_category_art" title="Business entrepreneurship" href="/en/search_campaign/?category=14">Business entrepreneurship</a>
-                     </li>
-                     <li>
-                        <svg class="svg-inline--fa fa-angle-right fa-w-8" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg="">
-                           <path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path>
-                        </svg>
-                        <!-- <i class="fas fa-angle-right"></i> --><a id="hnav_menu_category_art" title="Sports" href="/en/search_campaign/?category=13">Sports</a>
-                     </li>
-                     <li>
-                        <svg class="svg-inline--fa fa-angle-right fa-w-8" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg="">
-                           <path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path>
-                        </svg>
-                        <!-- <i class="fas fa-angle-right"></i> --><a id="hnav_menu_category_art" title="Anime cartoon" href="/en/search_campaign/?category=12">Anime cartoon</a>
-                     </li>
-                     <li>
-                        <svg class="svg-inline--fa fa-angle-right fa-w-8" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg="">
-                           <path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path>
-                        </svg>
-                        <!-- <i class="fas fa-angle-right"></i> --><a id="hnav_menu_category_art" title="Book magazine publishing" href="/en/search_campaign/?category=11">Book magazine publishing</a>
-                     </li>
-                     <li>
-                        <svg class="svg-inline--fa fa-angle-right fa-w-8" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg="">
-                           <path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path>
-                        </svg>
-                        <!-- <i class="fas fa-angle-right"></i> --><a id="hnav_menu_category_art" title="Movie" href="/en/search_campaign/?category=10">Movie</a>
-                     </li>
-                     <li>
-                        <svg class="svg-inline--fa fa-angle-right fa-w-8" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg="">
-                           <path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path>
-                        </svg>
-                        <!-- <i class="fas fa-angle-right"></i> --><a id="hnav_menu_category_art" title="Fashion" href="/en/search_campaign/?category=9">Fashion</a>
-                     </li>
-                     <li>
-                        <svg class="svg-inline--fa fa-angle-right fa-w-8" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg="">
-                           <path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path>
-                        </svg>
-                        <!-- <i class="fas fa-angle-right"></i> --><a id="hnav_menu_category_art" title="Food Restaurant" href="/en/search_campaign/?category=8">Food Restaurant</a>
-                     </li>
-                     <li>
-                        <svg class="svg-inline--fa fa-angle-right fa-w-8" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg="">
-                           <path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path>
-                        </svg>
-                        <!-- <i class="fas fa-angle-right"></i> --><a id="hnav_menu_category_art" title="Game service development" href="/en/search_campaign/?category=7">Game service development</a>
-                     </li>
-                     <li>
-                        <svg class="svg-inline--fa fa-angle-right fa-w-8" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg="">
-                           <path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path>
-                        </svg>
-                        <!-- <i class="fas fa-angle-right"></i> --><a id="hnav_menu_category_art" title="Technology Gadget" href="/en/search_campaign/?category=6">Technology Gadget</a>
-                     </li>
-                     <li>
-                        <svg class="svg-inline--fa fa-angle-right fa-w-8" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg="">
-                           <path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path>
-                        </svg>
-                        <!-- <i class="fas fa-angle-right"></i> --><a id="hnav_menu_category_art" title="Product" href="/en/search_campaign/?category=5">Product</a>
-                     </li>
-                     <li>
-                        <svg class="svg-inline--fa fa-angle-right fa-w-8" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg="">
-                           <path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path>
-                        </svg>
-                        <!-- <i class="fas fa-angle-right"></i> --><a id="hnav_menu_category_art" title="Stage Performance" href="/en/search_campaign/?category=4">Stage Performance</a>
-                     </li>
-                     <li>
-                        <svg class="svg-inline--fa fa-angle-right fa-w-8" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg="">
-                           <path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path>
-                        </svg>
-                        <!-- <i class="fas fa-angle-right"></i> --><a id="hnav_menu_category_art" title="Musics" href="/en/search_campaign/?category=3">Musics</a>
-                     </li>
-                     <li>
-                        <svg class="svg-inline--fa fa-angle-right fa-w-8" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg="">
-                           <path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path>
-                        </svg>
-                        <!-- <i class="fas fa-angle-right"></i> --><a id="hnav_menu_category_art" title="Art" href="/en/search_campaign/?category=2">Art</a>
-                     </li>
-                     <li>
-                        <svg class="svg-inline--fa fa-angle-right fa-w-8" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg="">
-                           <path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path>
-                        </svg>
-                        <!-- <i class="fas fa-angle-right"></i> --><a id="hnav_menu_category_art" title="Photo" href="/en/search_campaign/?category=1">Photo</a>
-                     </li>
-                  </ul>
-               </li>
-            </ul>
-         </div>
-         </div>
-      </nav>
-      <span class="login_register_wr">
-         <div class="nav-item nav-item-select custom_select_top">
-            <select name="language" onchange="location = this.value;">
-               <option value="/en/" selected="">
-                  English
-               </option>
-               <option value="/ja/">
-                  日本語
-               </option>
-               <option value="/ko/">
-                  한국어
-               </option>
-               <option value="/zh-hans/">
-                  简体中文
-               </option>
-            </select>
-         </div>
-         <a class="nav-item btn btn_primary btn-sm signup_btn" href="/en/accounts/login/">login</a>
-         <a class="nav-item btn btn_primary btn-sm login_btn" href="/en/registration/">register</a>
-      </span>
-      <div class="xwish_banner">
+  
+     
+      <div class="xigolo_banner">
          <div class="backgroundoverlay"></div>
-         <h4 class="description text-white animated fadeIn text-center">あなたの願い 、叶えます</h4>
-         <div class="banner_box text-center">
-            <h1 class="heading1 animated fadeIn">X</h1>
-            <h2 class="heading2 animated fadeIn">XWISH</h2>
-            <h3 class="heading3 animated fadeInUp">第一弾ウィッシュは<br />加藤紗里と<br />ハワイ写真集撮影デート！</h3>
-            <p class="transform_0_9"><a href="#" class="btn primary_button btn-default animated fadeInUp"><i class="fab fa-quinscape mr-1"></i>詳細を見る</a></p>
+         <div class="video_overlay">
+            <video class="banner_video" autoplay="" muted="" playsinline="" loop="" src="videos/Xigolo.mov" ></video>
+         </div>
+         <h1 class="heading1 animated fadeIn text-uppercase">THE BEST ONLINE GAMING BASED ON BLOCKCHAIN</h1>
+         <!-- <h4 class="description text-white animated fadeIn text-center">THE BEST ONLINE GAMING BASED ON BLOCKCHAIN</h4> -->
+         <div class="banner_box">
+            <div class="container">
+               <div class="row">
+                  <div class="col-12 col-md-6">
+                     <ul class="p-0 m-0 left_list">
+                        <li class="position-relative mb-1">
+                           <img class="position-absolute text-uppercase" src="images/515-150x150.jpg" alt="" />
+                           <div class="title_style">JACK JUST WON</div>
+                           <span class="text_green section_heading">$100</span>
+                        </li>
+                        <li class="position-relative mb-1">
+                           <img class="position-absolute text-uppercase" src="images/515-150x150.jpg" alt="" />
+                           <div class="title_style">EMMA JUST WON</div>
+                           <span class="text_green section_heading">$100</span>
+                        </li>
+                        <li class="position-relative mb-1">
+                           <img class="position-absolute text-uppercase" src="images/515-150x150.jpg" alt="" />
+                           <div class="title_style">MICHAEL JUST WON</div>
+                           <span class="text_green section_heading">$100</span>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-12 col-md-6">
+                     <div class="right_card text-center">
+                        <h2 class="section_heading"><span class="txt animated fadeInUp text-white text-uppercase">JACKPOT TOTAL</span> <span class="bg_sign animated d-block">X</span></h2>
+                     <h3>01,214,442</h3>
+                     <p class="transform_0_9"><a href="#" class="btn primary_button btn-default animated fadeInUp"><i class="fab fa-quinscape mr-1"></i>Play Now</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            
+         </div>
+
+         <div class="facts text-center position-absolute">
+            <div class="container-fluid">
+               <div class="row no-gutters">
+                  <div class="col-12 col-md-4">
+                     <div class="title_style">DEPOSIT WITH</div>
+                     <p class="section_heading text_green">$100</p>
+                  </div>
+                  <div class="col-12 col-md-4">
+                     <div class="title_style">PLAY WITH</div>
+                     <p class="section_heading text_green">$200</p>
+                  </div>
+                  <div class="col-12 col-md-4">
+                     <div class="title_style">GET FREESPIN</div>
+                     <p class="section_heading text_green">50</p>
+                  </div>
+               </div>
+            </div>
          </div>
       </div>
 
+<section class="hotest_games text-center">
+      <h2 class="section_heading"><span class="txt animated fadeInUp_js fadeInUp">HOTTEST GAMES</span> <span class="bg_sign animated fadeInDown" style="display: inline;">X</span></h2>
+
+      <div class="container-fluid">
+         <div class="row">
+
+            <div class="col-12 col-sm-6 col-md-4">
+               <div class="card project_box border-0 animated fadeInLeft_js fadeInLeft" style="display: block;">
+                  <div class="flip_box">
+                     <div class="front"></div>
+                     <div class="back">
+                        <div class="overlay2 overlay">
+                           <div class="inner text-white">
+                              <h4>TOSS THE COIN AND GUESS</h4>
+                              <p>1. Decide bet amount<br />
+                              2. Toss the coin<br />
+                              3. You will get payout when win</p>
+                              <p class="text-center"><a class="btn btn-outline-light btn_light" href="https://wallet.angelium.net/#/pages/dashboard">Play Now</a></p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                     <div class="card-body border-0 px-0">
+                        <h3 class="card-title title_style">ANGEL FLIP</h3>
+                  </div>
+               </div> 
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+               <div class="card project_box border-0 animated fadeInLeft_js fadeInLeft" style="display: block;">
+                  <div class="flip_box">
+                     <div class="front" style="background-image: url('images/angelum-akihabara-resize-add-outline.jpg');"></div>
+                     <div class="back">
+                        <div class="overlay2 overlay">
+                           <div class="inner text-white">
+                              <h4>GUESS WHO RISES THE mOST</h4>
+                              <p>1. Decide bet amount<br />
+2. Guess which crypto rises the most<br />
+3. You will get payout when win</p>
+                              <p class="text-center"><a class="btn btn-outline-light btn_light" href="https://wallet.angelium.net/#/pages/dashboard">Enter</a></p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                     <div class="card-body border-0 px-0">
+                        <h3 class="card-title title_style">ANGEL RACE</h3>
+                  </div>
+               </div> 
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+               <div class="card project_box border-0 animated fadeInLeft_js fadeInLeft" style="display: block;">
+                  <div class="flip_box">
+                     <div class="front" style="background-image: url('images/angel-2827148_640.jpg');"></div>
+                     <div class="back">
+                        <div class="overlay2 overlay">
+                           <div class="inner text-white">
+                              <h4>SIMPLE SMART LOTTERY</h4>
+                              <p>1. Make bet<br />
+2. Wait until the result is revealed<br />
+3. You will get payout when win</p>
+                              <p class="text-center"><a class="btn btn-outline-light btn_light" href="https://wallet.angelium.net/#/pages/dashboard">Enter</a></p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                     <div class="card-body border-0 px-0">
+                        <h3 class="card-title title_style">ANGEL LOTTO</h3>
+                  </div>
+               </div> 
+            </div>
+
+ 
+       
+         </div>      
+               
+        <div class="row">
+
+            <div class="col-12 col-sm-6 col-md-4">
+               <div class="card project_box border-0 animated fadeInLeft_js fadeInLeft" style="display: block;">
+                  <div class="flip_box">
+                     <div class="front" style="background-image: url('images/casino-gambling-machines-P35HHKK-copy.jpg');"></div>
+                     <div class="back">
+                        <div class="overlay2 overlay">
+                           <div class="inner text-white">
+                              <h4>JACKPOT CHANGES YOUR LIFE</h4>
+                              <p>1. Decide bet amount<br />
+2. Spin the reel<br />
+3. You will get payout when win</p>
+                              <p class="text-center"><a class="btn btn-outline-light btn_light" href="https://wallet.angelium.net/#/pages/dashboard">Play Now</a></p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                     <div class="card-body border-0 px-0">
+                        <h3 class="card-title title_style">ANGEL SLOT</h3>
+                  </div>
+               </div> 
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+               <div class="card project_box border-0 animated fadeInLeft_js fadeInLeft" style="display: block;">
+                  <div class="flip_box">
+                     <div class="front" style="background-image: url('images/diverse-adults-gambling-shoot-P25XA8Q-copy.jpg');"></div>
+                     <div class="back">
+                        <div class="overlay2 overlay">
+                           <div class="inner text-white">
+                              <h4>PLAYER OR BANKER</h4>
+                              <p>1. Choose player or banker<br />
+2. Decide bet amount<br />
+3. You will get payout when win</p>
+                              <p class="text-center"><a class="btn btn-outline-light btn_light" href="https://wallet.angelium.net/#/pages/dashboard">Enter</a></p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                     <div class="card-body border-0 px-0">
+                        <h3 class="card-title title_style">ANGEL BACARRAT</h3>
+                  </div>
+               </div> 
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+               <div class="card project_box border-0 animated fadeInLeft_js fadeInLeft" style="display: block;">
+                  <div class="flip_box">
+                     <div class="front" style="background-image: url('images/poker-3956037_640.jpg');"></div>
+                     <div class="back">
+                        <div class="overlay2 overlay">
+                           <div class="inner text-white">
+                              <h4>CHALLANGE THE WORLD</h4>
+                              <p>1. To be announced<br />
+2. To be announced<br />
+3. To be announced</p>
+                              <p class="text-center"><a class="btn btn-outline-light btn_light" href="https://wallet.angelium.net/#/pages/dashboard">Enter</a></p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                     <div class="card-body border-0 px-0">
+                        <h3 class="card-title title_style">ANGEL POKER</h3>
+                  </div>
+               </div> 
+            </div>
+
+ 
+       
+         </div>   
+
+      </div>
+       
+   </section>
+
       <!-- About Section -->
       <section class="about text-center">
-         <h2 class="section_heading"><span class="txt animated fadeInUp_js">世界があなたのチャレンジを応援</span> <span class="bg_sign animated">X</span></h2>
-         <p class="desc animated fadeInUp_js">XWISH（エックスウィッシュ）とは<br>
+         <h2 class="section_heading"><span class="txt animated fadeInUp_js">HOTTEST GAMES</span> <span class="bg_sign animated">X</span></h2>
+         <p class="desc animated fadeInUp_js">xigolo（エックスウィッシュ）とは<br>
             誰かが誰かのWISH（願い事）を<br>他の誰かが叶えてあげることができるサービスです。
             <br>
             <br>
@@ -217,9 +249,9 @@
          </p>
       </section>
 
-      <section class="why_xwish commonsection">
+      <section class="why_xigolo commonsection">
       <div class="bgoverlay"></div>
-      <h2 class="section_heading text-center"><span class="txt animated fadeInUp_js">なぜXWISHなのか</span> <span class="bg_sign animated">X</span></h2>
+      <h2 class="section_heading text-center"><span class="txt animated fadeInUp_js">なぜxigoloなのか</span> <span class="bg_sign animated">X</span></h2>
 
       <div class="container-fluid">
             
@@ -405,6 +437,6 @@
          </div>
       </section>
       <!-- Script -->
-      <script src="js/main.js"  ></script>
+      <script src="js/xigolo_main.js"  ></script>
    </body>
 </html>
