@@ -755,17 +755,20 @@ section.why_xigolo .section_heading {
 }
 
 
+section.special_offers .section_heading .txt,
 section.why_xigolo .section_heading .txt {
 	font-size: 57px;
     letter-spacing: 10px;
     color: #ffffff;
 }
 
+section.special_offers .section_heading .bg_sign,
 section.why_xigolo .section_heading .bg_sign {
     color: rgba(103,206,0,0.75);
     margin-left: -31px;
 }
 
+section.special_offers .bgoverlay,
 section.why_xigolo .bgoverlay {
     background-color: #000000;
     opacity: 0.65;
@@ -886,6 +889,24 @@ section.xigolo_vr .card .title_style {
 
 section.xigolo_vr video {
     margin-bottom: 20px;
+}
+
+section.special_offers {
+    background-color: #000000;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    background-image: url(../images/gambling-table-in-luxury-casino-PRDG4P5-copy.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+section.special_offers .title_style {
+    margin-bottom: 14px;
+}
+
+section.special_offers .section_heading {
+    font-size: 86px;
 }
 
 @media all and (max-width: 1024px)  {
