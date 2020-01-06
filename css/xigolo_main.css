@@ -744,19 +744,32 @@ section.usage_flow {
 
 section.why_xigolo {
 	background-attachment: fixed;
-	background-image: url('../images/portrait-787522.jpg');
+	background-image: url('../images/happy-caucasian-friends-playing-roulette-in-PBUR794-copy.jpg');
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     position: relative;
-    padding-bottom: 40px;
+    padding-bottom: 0;
 }
 
 section.why_xigolo .section_heading {
-	margin-bottom: 110px;
+	margin-bottom: 60px;
+}
+
+
+section.why_xigolo .section_heading .txt {
+	font-size: 57px;
+    letter-spacing: 10px;
+    color: #ffffff;
+}
+
+section.why_xigolo .section_heading .bg_sign {
+    color: rgba(103,206,0,0.75);
+    margin-left: -31px;
 }
 
 section.why_xigolo .bgoverlay {
-	background-color: #ffffff;
-    opacity: 0.73;
+    background-color: #000000;
+    opacity: 0.65;
+    mix-blend-mode: multiply;
     transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
     height: 100%;
     width: 100%;
@@ -764,6 +777,31 @@ section.why_xigolo .bgoverlay {
     left: 0;
     position: absolute;
 }
+
+section.why_xigolo .play_button {
+    padding: 40px 0 100px;
+}
+
+.why_xigolo_bg {
+    background-color: rgba(0,0,0,0.6);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.why_xigolo_2 {
+    padding-top: 65px;
+    padding-bottom: 40px;
+}
+
+.why_xigolo_2 p {
+    line-height: 2em;
+    font-size: 1rem;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Nunito", sans-serif;
+    font-weight: 100;
+}
+
 
 section.why_xigolo .card {
     padding: 0 5px;
@@ -802,17 +840,19 @@ section.why_xigolo .card .card-body {
 }
 
 section.why_xigolo p.card-text {
-    color: #54595f;
     line-height: 1.3em;
     font-weight: 100;
     font-size: 1rem;
+    font-family: "Nunito", sans-serif;
+    letter-spacing: normal;
 }
 
 section.why_xigolo .card-title {
-    color: #0d84e5;
-    font-size: 27px;
+	font-size: 37px;
     letter-spacing: 10px;
-    font-weight: normal;
+    font-family: 'Bebas Neue', Sans-serif;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
 section.why_buttons.commonsection {
