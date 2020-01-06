@@ -229,6 +229,11 @@ a.navbar-brand img {
 	color: #fff;
 }
 
+.xigolo_banner video.banner_video {
+    max-width: 100%;
+    margin-top: -68px;
+}
+
 .xigolo_banner .right_card {
     padding: 50px 0 20px 0;
 }
@@ -346,9 +351,10 @@ a.navbar-brand img {
 }
 
 .xigolo_banner .facts p.section_heading {
-    font-size: 86px;
+	font-size: 86px;
     letter-spacing: 8.2px;
     line-height: 100px;
+    margin-bottom: 10px;
 }
 
 
@@ -744,10 +750,12 @@ section.usage_flow {
 
 section.why_xigolo {
 	background-attachment: fixed;
-	background-image: url('../images/happy-caucasian-friends-playing-roulette-in-PBUR794-copy.jpg');
+    background-image: url(../images/happy-caucasian-friends-playing-roulette-in-PBUR794-copy.jpg);
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     position: relative;
     padding-bottom: 0;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
 }
 
 section.why_xigolo .section_heading {
@@ -803,6 +811,7 @@ section.why_xigolo .play_button {
     margin-right: auto;
     font-family: "Nunito", sans-serif;
     font-weight: 100;
+    letter-spacing: normal;
 }
 
 
