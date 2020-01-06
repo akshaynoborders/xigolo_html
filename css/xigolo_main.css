@@ -227,6 +227,7 @@ a.navbar-brand img {
 	padding: 0px 0px 0px 0px;
 	overflow: hidden;
 	color: #fff;
+	background-color: #000;
 }
 
 .xigolo_banner video.banner_video {
@@ -349,6 +350,11 @@ a.navbar-brand img {
     left: 0;
     right: 0;
 }
+
+.xigolo_banner .facts .title_style {
+    margin-bottom: 10px;
+}
+
 
 .xigolo_banner .facts p.section_heading {
 	font-size: 86px;
@@ -931,10 +937,43 @@ section.special_offers .section_heading {
 	}
 
 	.section_heading .bg_sign {
-	    font-size: 120px;
+	    font-size: 100px;
 	    margin-left: -50px;
-	    margin-top: -35px;
+	    margin-top: -60px;
 	}
+
+	.xigolo_banner {
+	    height: 700px;
+	}
+
+	.xigolo_banner video.banner_video {
+    	max-width: unset;
+	    width: 1365px;
+	    margin-left: -182px;
+	}
+
+	.xigolo_banner .heading1 {
+		top: 160px;
+	}
+
+	.xigolo_banner .right_card h3 {
+	    font-size: 58px;
+	}
+
+	section.special_offers .section_heading,
+	.xigolo_banner .facts p.section_heading {
+	    font-size: 65px;
+	    line-height: 70px;
+	}
+
+	.xigolo_banner .banner_box {
+	    top: 250px;
+	}
+
+	section.special_offers .section_heading .txt, section.why_xigolo .section_heading .txt {
+		font-size: 50px;
+	}
+
 }
 
 @media all and (max-width: 991px)  {
@@ -1083,11 +1122,7 @@ section.special_offers .section_heading {
 	.xigolo_banner .banner_box {
 	    top: 190px;
 	}
-	.xigolo_banner .heading1 {
-	    font-size: 100px;
-	    line-height: 100px;
-	}
-
+ 
 	.xigolo_banner .heading2 {
 	    font-size: 52px;
 	    line-height: 52px;
@@ -1106,8 +1141,7 @@ section.special_offers .section_heading {
 	    font-size: 20px;
 	}
 
-	section.examples .section_heading .txt,
-	.section_heading .txt {
+	section.examples .section_heading .txt {
 	    font-size: 18px;
 	    font-weight: normal;
 	}
@@ -1129,6 +1163,27 @@ section.special_offers .section_heading {
 @media all and (max-width: 786px)  {
 	.hotest_games-search .search-header .block {
 		margin-bottom: 10px;
+	}
+
+	.xigolo_banner {
+	    height: auto;
+	}
+
+	.xigolo_banner .heading1 {
+	    top: 50%;
+	}
+
+	.xigolo_banner .banner_box {
+	    max-width: 100%;
+	    top: 54%;
+	}
+
+	.xigolo_banner video.banner_video {
+	    max-width: unset;
+	    width: auto;
+	    margin-left: 0;
+	    height: 100%;
+	    margin: 0;
 	}
 }
 
@@ -1212,6 +1267,50 @@ section.special_offers .section_heading {
 		padding-bottom: 40px;
 	}
 
+	.xigolo_banner video.banner_video {
+	    height: 600px;
+	    width: auto;
+	}
+
+	.xigolo_banner .heading1 {
+	    top: 50px;
+	}
+
+	.xigolo_banner .banner_box {
+	    max-width: 100%;
+	    top: 100px;
+	    margin-bottom: 40px;
+	}
+
+	.xigolo_banner .banner_box .left_list li span {
+	    font-size: 30px;
+	}
+
+	.xigolo_banner .banner_box .left_list li .title_style {
+	    margin-bottom: 10px;
+	}
+
+	.xigolo_banner .facts {
+	    position: static !important;
+	}
+
+	section.special_offers, 
+	section.why_xigolo {
+	    background-position: center;
+	}
+
+	.bounceInLeft_js, .bounceInRight_js, .fadeInLeft_js, .fadeInRight_js, .fadeInUp_js, .fadeInDown_js {
+	    visibility: visible !important;
+	}
+
+	section.special_offers .section_heading .bg_sign, section.why_xigolo .section_heading .bg_sign {
+	    color: rgba(103,206,0,0.75);
+	    margin-left: -31px;
+	    margin-top: -34px;
+	}
+
+
+
 }
 
 @media all and (max-width: 600px)  {
@@ -1277,20 +1376,10 @@ section.special_offers .section_heading {
 	    padding: 10px 8px !important;
 	}
 
-	/*New */
-	.xigolo_banner {
-		background-size: auto 740px;
-		background-position: top center;
-
-		/*Safari Fixes*/
-		-webkit-background-size: auto 740px;
-
-		/*Mozilla and Opera*/
-		-moz-background-size: auto 740px;
-		-o-background-size: auto 740px;
-		max-height: unset;
-		height: 740px;
-		background-attachment: unset;
+ 
+	section.special_offers, section.why_xigolo {
+	    background-size: auto 100%;
+	    background-position: center;
 	}
 
 	section.examples {
@@ -1301,6 +1390,16 @@ section.special_offers .section_heading {
 
 
 @media all and (max-width: 480px)  {
+
+	section.special_offers .section_heading .txt, section.why_xigolo .section_heading .txt {
+	    font-size: 40px;
+	    line-height: 48px;
+	}
+
+	section.special_offers .section_heading, .xigolo_banner .facts p.section_heading {
+	    font-size: 50px;
+	    line-height: 60px;
+	}
 
 	nav.gl-header .menu-global li.fixed_right a.btn {
 		padding: 10px 5px;
@@ -1340,6 +1439,10 @@ section.special_offers .section_heading {
 	.usage_flow .btn {
 	    width: 100%;
 	    max-width: 400px;
+	}
+
+	section.xigolo_vr .card {
+		margin-bottom: 20px;
 	}
 
  }
