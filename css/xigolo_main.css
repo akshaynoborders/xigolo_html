@@ -363,6 +363,9 @@ a.navbar-brand img {
     margin-bottom: 10px;
 }
 
+.video_overlay {
+	line-height: 0px;
+}
 
 section.about,
 section.examples,
@@ -1180,10 +1183,18 @@ section.special_offers .section_heading {
 
 	.xigolo_banner video.banner_video {
 	    max-width: unset;
-	    width: auto;
-	    margin-left: 0;
-	    height: 100%;
+	    width: 100%;
 	    margin: 0;
+	}
+
+	.xigolo_banner .banner_box {
+	    max-width: 100%;
+	    position: static;
+	    margin-bottom: 40px;
+	}
+
+	.xigolo_banner .facts {
+	    position: static !important;
 	}
 }
 
@@ -1216,8 +1227,9 @@ section.special_offers .section_heading {
 	}
  
 	.xigolo_banner .banner_box {
-		max-width: 100%;
-	} 
+	    max-width: 100%;
+	    position: static;
+	}
 
 	.slick_content {
 		top: 8px;
@@ -1267,13 +1279,8 @@ section.special_offers .section_heading {
 		padding-bottom: 40px;
 	}
 
-	.xigolo_banner video.banner_video {
-	    height: 600px;
-	    width: auto;
-	}
-
 	.xigolo_banner .heading1 {
-	    top: 50px;
+	    top: 150px;
 	}
 
 	.xigolo_banner .banner_box {
@@ -1443,6 +1450,17 @@ section.special_offers .section_heading {
 
 	section.xigolo_vr .card {
 		margin-bottom: 20px;
+	}
+
+	.xigolo_banner .right_card .section_heading .bg_sign {
+	    color: rgba(103,206,0,0.75);
+	    top: 25px;
+	}
+
+	section.special_offers .section_heading .bg_sign, section.why_xigolo .section_heading .bg_sign {
+	    color: rgba(103,206,0,0.75);
+	    margin-left: -31px;
+	    margin-top: -20px;
 	}
 
  }
