@@ -860,6 +860,34 @@ section.why_buttons.commonsection {
 	margin-bottom: 100px;
 }
 
+section.xigolo_vr {
+	padding-bottom: 30px;
+}
+
+section.xigolo_vr .section_heading .txt{
+	font-size: 57px;
+}
+
+section.xigolo_vr .card {
+	align-items: center;
+    align-content: center;
+    height: 100%;
+    border: none;
+    justify-content: center;
+}
+
+section.xigolo_vr .card h2.section_heading {
+    margin-bottom: 15px;
+}
+
+section.xigolo_vr .card .title_style {
+    line-height: 2.1em;
+}
+
+section.xigolo_vr video {
+    margin-bottom: 20px;
+}
+
 @media all and (max-width: 1024px)  {
 	nav.gl-header .menu-global li a {
 	    margin-right: 0;
