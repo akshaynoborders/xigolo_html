@@ -137,7 +137,7 @@ section p {
     -o-transition: all .3s ease-in;
     transition: all .3s ease-in;
     background:rgba(21,50,178,0.5);
-    height:60px;
+    /*height:60px;*/
 }
 
 .navbar .navbar-nav {
@@ -1116,10 +1116,6 @@ section.special_offers .section_heading {
 	    margin-left: -182px;
 	}
 
-	.xigolo_banner .heading1 {
-		top: 160px;
-	}
-
 	.xigolo_banner .right_card h3 {
 	    font-size: 58px;
 	}
@@ -1130,12 +1126,12 @@ section.special_offers .section_heading {
 	    line-height: 70px;
 	}
 
-	.xigolo_banner .banner_box {
-	    top: 250px;
-	}
-
 	section.special_offers .section_heading .txt, section.why_xigolo .section_heading .txt {
 		font-size: 50px;
+	}
+
+	.xigolo_banner .banner_box {
+	    bottom: 150px;
 	}
 
 }
@@ -1272,6 +1268,16 @@ section.special_offers .section_heading {
 }
 
 @media all and (max-width: 812px)  {
+
+	.xigolo_banner .heading1 {
+	    top: 200px;
+	    font-size: 24px;
+	    line-height: 28px;
+	    width: 300px;
+	    left: 50%;
+	    margin-left: -150px;
+	}
+
 	.section_heading .txt {
 	    font-weight: normal;
 	    letter-spacing: normal;
@@ -1282,10 +1288,6 @@ section.special_offers .section_heading {
 		height: 740px;
 		background-attachment: unset;
 	}
-
-	.xigolo_banner .banner_box {
-	    top: 190px;
-	}
  
 	.xigolo_banner .heading2 {
 	    font-size: 52px;
@@ -1294,6 +1296,7 @@ section.special_offers .section_heading {
 
 	.xigolo_banner .banner_box {
 	    width: 100%;
+	    position: static;
 	}
 
 	.xigolo_banner .heading3 {
@@ -1333,25 +1336,10 @@ section.special_offers .section_heading {
 	    height: auto;
 	}
 
-	.xigolo_banner .heading1 {
-	    top: 50%;
-	}
-
-	.xigolo_banner .banner_box {
-	    max-width: 100%;
-	    top: 54%;
-	}
-
 	.xigolo_banner video.banner_video {
 	    max-width: unset;
 	    width: 100%;
 	    margin: 0;
-	}
-
-	.xigolo_banner .banner_box {
-	    max-width: 100%;
-	    position: static;
-	    margin-bottom: 40px;
 	}
 
 	.xigolo_banner .facts {
@@ -1387,11 +1375,6 @@ section.special_offers .section_heading {
     	margin: 7px 0;
 	}
  
-	.xigolo_banner .banner_box {
-	    max-width: 100%;
-	    position: static;
-	}
-
 	.slick_content {
 		top: 8px;
 	}
@@ -1477,8 +1460,11 @@ section.special_offers .section_heading {
 	    margin-top: -34px;
 	}
 
-
-
+	.xigolo_banner .heading1 {
+	    top: 150px;
+	    font-size: initial;
+	    line-height: initial;
+	}
 }
 
 @media all and (max-width: 600px)  {
@@ -1622,6 +1608,15 @@ section.special_offers .section_heading {
 	    color: rgba(103,206,0,0.75);
 	    margin-left: -31px;
 	    margin-top: -20px;
+	}
+
+	.xigolo_banner video.banner_video {
+	    margin: 61px 0 0 0;
+	}
+
+	.xigolo_banner .heading1 {
+	    top: 160px;
+	    letter-spacing: 5.5px;
 	}
 
  }
