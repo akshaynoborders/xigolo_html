@@ -305,7 +305,7 @@ a.navbar-brand img {
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     background-color: rgba(21,50,178,0.5);
     width: 100%;
-    top: 195px;
+    bottom: 174px;
     left: 0;
     z-index: 2;
 }
@@ -319,7 +319,7 @@ a.navbar-brand img {
     padding: 0;
     margin: 0;
     line-height: 1;
-    top: 120px;
+    top: 60px;
     text-align: center;
 }
 
@@ -346,21 +346,23 @@ a.navbar-brand img {
 }
 
 .xigolo_banner .facts {
-    bottom: 0;
+	bottom: 0;
     left: 0;
     right: 0;
+    background: rgba(0,0,0,0.5);
+    padding: 36px 0 22px 0;
 }
 
 .xigolo_banner .facts .title_style {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 
 .xigolo_banner .facts p.section_heading {
 	font-size: 86px;
     letter-spacing: 8.2px;
-    line-height: 100px;
-    margin-bottom: 10px;
+    line-height: 86px;
+    margin-bottom: 0;
 }
 
 .video_overlay {
