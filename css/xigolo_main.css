@@ -1831,6 +1831,10 @@ section.special_offers .section_heading {
 	.chat_sidebar .message_box {
 	    /*margin-right: -27px;*/
 	}
+
+	.navbar {
+		padding-right: 0px !important;
+	}
 }
 
 @media all and (max-width: 400px)  {
