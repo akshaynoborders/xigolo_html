@@ -232,19 +232,20 @@ section p {
 }
 
 a.navbar-brand {
-    font-size: 34px !important;
-    font-family: 'Bebas Neue',Sans-serif;
+	font-size: 34px !important;
+    font-family: bankgothicregular;
     font-weight: 600 !important;
     padding: 5px 25px !important;
     margin: 10px 0;
     display: block !important;
     height: 36px !important;
-    line-height: 35px !important;
+    line-height: 28px !important;
     width: 150px !important;
     top: 1px;
     position: absolute;
     z-index: 101;
-    color:#fff !important;
+    color: #fff !important;
+    text-transform: uppercase;
 }
 
 nav.navbar .more-menu.active {
@@ -474,8 +475,9 @@ nav.navbar .more-menu {
 }
 
 .xigolo_banner video.banner_video {
-    max-width: 100%;
-    margin-top: -68px;
+    width: 1315px;
+    margin-top: 0;
+    margin-left: -58px;
 }
 
 .xigolo_banner .right_card {
@@ -562,7 +564,7 @@ nav.navbar .more-menu {
     padding: 0;
     margin: 0;
     line-height: 1;
-    top: 70px;
+    top: 80px;
     text-align: center;
 }
 
@@ -1173,6 +1175,12 @@ section.special_offers .section_heading {
 }
 
 @media all and (max-width: 1024px)  {
+
+	.chat_sidebar .message_box {
+		margin-right: 0px;
+		padding-right: 0px;
+	}
+
 	nav.gl-header .menu-global li a {
 	    margin-right: 0;
 	    padding: 22px 5px 20px 5px !important;
@@ -1195,9 +1203,9 @@ section.special_offers .section_heading {
 	}
 
 	.xigolo_banner video.banner_video {
-    	max-width: unset;
-	    width: 1365px;
-	    margin-left: -182px;
+	    max-width: unset;
+	    width: 1244px;
+	    margin-left: -255px;
 	}
 
 	.xigolo_banner .right_card h3 {
@@ -1516,6 +1524,12 @@ section.special_offers .section_heading {
 	.slick_bg {
 	    background-size: auto 100% !important;
 	}
+
+	.chat_sidebar {
+	    margin-top: 53px;
+	}
+
+
 }
 
 @media all and (max-width: 767px)  {
@@ -1814,7 +1828,7 @@ section.special_offers .section_heading {
 	}
 
 	.chat_sidebar .message_box {
-	    margin-right: -27px;
+	    /*margin-right: -27px;*/
 	}
 }
 
