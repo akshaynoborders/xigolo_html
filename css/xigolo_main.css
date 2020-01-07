@@ -222,6 +222,7 @@ section p {
     transition: all .3s ease-in;
     background:rgba(21,50,178,0.5);
     /*height:60px;*/
+    padding-right: 300px;
 }
 
 .navbar .navbar-nav {
