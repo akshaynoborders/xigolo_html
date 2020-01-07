@@ -57,8 +57,12 @@
 	background: #f7f7fa
 }
 
-.navbar {
-	background: rgba(224, 40, 144, 0.5)!important;
+.btn_primary {
+    font-family: "Earth Orbiter",Sans-serif;
+    border: 2px solid #1d36a5 !important;
+    color: #fff !important;
+    background: #1d36a5 !important;
+    text-transform: capitalize;
 }
 
 .primary_button, .primary_button:hover {
@@ -124,61 +128,216 @@ section p {
 	background: 0 0!important
 }
 
+
+/*Header*/
 .navbar {
-	padding: 0 20px;
-	line-height: 0
+    padding: 0px;
+    line-height: 0;
+    -webkit-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    background:rgba(21,50,178,0.5);
+    height:60px;
+}
+
+.navbar .navbar-nav {
+    display: block;
+    flex-direction: unset;
+    width: 100%;
+    text-align: center;
 }
 
 a.navbar-brand {
-	font-size: 34px;
-	font-family: 'Bebas Neue', Sans-serif;
-	font-weight: 600;
-	padding: 5px 25px;
-	margin: 10px 0
+    font-size: 34px !important;
+    font-family: 'Bebas Neue',Sans-serif;
+    font-weight: 600 !important;
+    padding: 5px 25px !important;
+    margin: 10px 0;
+    display: block !important;
+    height: 36px !important;
+    line-height: 35px !important;
+    width: 150px !important;
+    top: 1px;
+    position: absolute;
+    z-index: 101;
+    color:#fff !important;
 }
+
+nav.navbar .more-menu.active {
+    height: auto;
+}
+
+nav.navbar .more-menu>ul {
+    padding: 40px 0 20px;
+}
+
+nav.navbar .more-menu>ul>li {
+    width: 1200px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+nav.navbar .more-menu>ul>li ul.category {
+    margin: 40px 0 40px 100px;
+    padding: 0 20px;
+    text-align: left;
+}
+
+nav.navbar .more-menu>ul>li ul.category li {
+    position: relative;
+    width: 25%;
+    margin: 0;
+    padding: 10px 0 10px 30px;
+    border: none;
+    display: block;
+    float: left;
+    line-height: 18px;
+}
+
+nav.navbar .more-menu>ul>li ul.category li svg,
+nav.navbar .more-menu>ul>li ul.category li i {
+    font-size: 16px;
+    position: absolute; 
+    top: 11px;
+    left: 5px;
+    width: 16px;
+    height: 16px;
+    color: #fff;
+}
+
+nav.navbar .more-menu>ul>li ul.category li a {
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration:none;
+}
+
+.more-menu .search_campaign_msg, .more-menu .centered_white {
+    color: #ffffff;
+    text-align: center;
+}   
 
 a.navbar-brand img {
-	height: 28px;
-	margin-right: 5px;
-	position: relative;
-	top: -1px
+    height: 28px;
+    margin-right: 5px;
+    position: relative;
+    top: -1px;
 }
 
-.navbar-nav {
-	margin-left: 15px
+a.navbar-brand .icon {
+    font-family: "Dr Sugiyama",Sans-serif;
+    font-size: 29px;
+    position: relative;
+    top: -2px;
+    right: 2px;
+}
+ 
+.navbar-nav li.nav-item {
+    display: inline-block;
+    margin: 0 1%;
 }
 
 .navbar-nav .nav-link {
-	display: inline-block;
-	color: #fff!important;
-	font-size: 12px;
-	font-weight: 300;
-	letter-spacing: 1px;
-	position: relative;
-	padding: 9px 13px 9px 15px;
-	text-transform: uppercase;
-	font-family: "Nunito Sans", Sans-serif;
-	line-height: 14px;
-	margin-right: 15px;
-	overflow: hidden
+    display: inline-block;
+    color: #fff !important;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    position: relative;
+    padding: 22px 5px 20px 5px !important;
+    text-transform: uppercase;
+    font-family: "Nunito Sans",Sans-serif;
+    line-height: 14px;
+    /*margin-right: 15px;*/
+    overflow: hidden;
+    height: auto !important;
+    box-sizing: border-box;
+    border-bottom: 4px solid transparent;
 }
 
-.navbar-nav .nav-link:after {
-	content: '';
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	top: 0;
-	right: -1px;
-	z-index: -1;
-	background: #e02890;
-	transform: translate3d(101%, 0, 0);
-	transition: transform .5s;
-	transition-timing-function: cubic-bezier(.7, 0, .3, 1)
+.navbar-nav .nav-link:hover {
+    color: #1d36a5;
+    border-bottom: 4px #1d36a5 solid;
 }
 
-.navbar-nav .nav-link:hover:after {
-	transform: translate3d(0, 0, 0)
+/*.navbar-nav .nav-link:after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: -1px;
+    z-index: -1;
+    background: #1d36a5;
+    transform: translate3d(101%,0,0);
+    transition: transform .5s;
+    transition-timing-function: cubic-bezier(.7,0,.3,1);
+}
+*/
+/*.navbar-nav .nav-link:hover:after {
+    transform: translate3d(0,0,0);
+}*/
+
+nav.navbar.more-menu.active {
+    height: 500px;
+}
+
+nav.navbar .more-menu {
+    position: absolute;
+    z-index: 999999;
+    top: 60px;
+    left: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    background: rgba(21,50,178,0.5);
+    -webkit-transition: height 0.3s cubic-bezier(0.1, 0.7, 0.4, 1);
+    transition: height 0.3s cubic-bezier(0.1, 0.7, 0.4, 1);
+}
+
+.login_register_wr .btn,
+.fixed_right .logout_btn,
+.fixed_right .login_btn,
+.fixed_right .signup_btn,
+.nav-item.signup_btn,
+.nav-item.login_btn,
+.nav-item.logout_btn {
+    font-size: 14px;
+    padding: 8px 15px;
+    letter-spacing: initial !important;
+    line-height: 14px;
+    border-radius: 4px !important;
+    display: inline-block !important;
+    vertical-align: top;
+}
+
+.login_register_wr .btn.logout_btn {
+    margin-left: 5px;
+}
+
+.navbar-nav .login_register_wr .nav-item {
+    position: static;
+}
+
+.login_register_wr {
+    display: block !important;
+    position: fixed;
+    right: 10px;
+    z-index: 9999;
+    top: 12px;
+}
+
+.nav-item-select{
+    display: inline-block;
+}
+
+.nav-item-select select {
+    padding: 6px 0 6px 5px;
+    color: #1d36a5 !important;
+    font-size: 14px;
+    border-radius: 3px;
+    background: #fff;
+    border: none;
 }
 
 .section_heading {
@@ -319,7 +478,7 @@ a.navbar-brand img {
     padding: 0;
     margin: 0;
     line-height: 1;
-    top: 60px;
+    top: 80px;
     text-align: center;
 }
 
@@ -346,11 +505,11 @@ a.navbar-brand img {
 }
 
 .xigolo_banner .facts {
-	bottom: 0;
+    bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(0,0,0,0.5);
-    padding: 36px 0 22px 0;
+    background: rgba(0,0,0,0.66);
+    padding: 26px 0 12px 0;
 }
 
 .xigolo_banner .facts .title_style {
@@ -1030,7 +1189,7 @@ section.special_offers .section_heading {
 	}
 
 	.navbar.transparent .navbar-nav {
-	     background: rgba(224, 40, 144, 0.5); 
+	     background: rgba(21,50,178,0.5); 
 	}
 
 	.login_register_wr {
