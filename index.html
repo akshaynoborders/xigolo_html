@@ -94,17 +94,22 @@
 
   <!-- Mobile Login / Signup -->
   <span class="login_register_wr">
+    <a class="nav-item btn btn_primary btn-sm signup_btn" href="/en/accounts/login/">login</a>
+  <a class="nav-item btn btn_primary btn-sm login_btn" href="/en/registration/">register</a>
+  
    <div class="nav-item nav-item-select custom_select_top">
-        <select name="language" onchange="location = this.value;">
-            <option value="/en/" selected>English</option>
-            <option value="/ja/" >日本語</option>
-            <option value="/ko/" >한국어</option>
-            <option value="/zh-hans/" >简体中文</option>
-        </select>
+      <div class="dropdown">
+        <button name="language" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <img class="flat_img" src='images/en.svg' alt="English" />
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+          <button class="dropdown-item" type="button"><img class="flat_img" src='images/ko.svg' alt="한국어" /></button>
+          <button class="dropdown-item" type="button"><img class="flat_img" src='images/zh.svg' alt="简体中文" /></button>
+          <button class="dropdown-item" type="button"><img class="flat_img" src='images/ja.svg' alt="日本語" /></button>
+        </div>
+      </div>
    </div>
 
-  <a class="nav-item btn btn_primary btn-sm signup_btn" href="/en/accounts/login/">login</a>
-  <a class="nav-item btn btn_primary btn-sm login_btn" href="/en/registration/">register</a>
   
   </span>
 

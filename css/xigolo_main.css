@@ -56,6 +56,37 @@ body {
     background-color: #0c1317;
 }
 
+/*Flag*/
+.flat_img {
+	width: 32px;
+	height: 32px;
+}
+
+.custom_select_top .dropdown button:after {
+	display: none;
+}
+
+.custom_select_top .dropdown button {
+    padding: 5px;
+    background: rgba(21,50,178,0.5) !important;
+    border: none;
+    outline: unset !important;
+    box-shadow: unset !important;
+}
+
+.custom_select_top .dropdown-menu.show {
+    width: auto;
+    min-width: 0;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    top: -8px !important;
+}
+
+.custom_select_top  .flat_img {
+	border-radius: 4px;
+}
+
 /*Main*/
 .bg_grey {
 	background: #f7f7fa
