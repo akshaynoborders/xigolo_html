@@ -1349,12 +1349,33 @@ section.special_offers .section_heading {
 	.grid-container-full-xs {
 	    padding: 0 15px !important;
 	}
+
+	.xigolo_banner .right_card a.btn {
+	    padding: 20px 40px;
+	}
+
+
 }
 
 @media all and (max-width: 812px)  {
 
+	.section_heading .bg_sign {
+	    font-size: 100px;
+	    margin-left: -30px;
+	    margin-top: -29px;
+	}
+
+	section.special_offers .section_heading, .xigolo_banner .facts p.section_heading {
+	    font-size: 60px;
+	    line-height: 70px;
+	}
+
+	.xigolo_banner .right_card h3 {
+	    font-size: 40px;
+	}
+
 	.xigolo_banner .heading1 {
-	    top: 200px;
+	    top: 114px;
 	    font-size: 24px;
 	    line-height: 28px;
 	    width: 300px;
@@ -1507,10 +1528,6 @@ section.special_offers .section_heading {
 		padding-bottom: 40px;
 	}
 
-	.xigolo_banner .heading1 {
-	    top: 150px;
-	}
-
 	.xigolo_banner .banner_box {
 	    max-width: 100%;
 	    top: 100px;
@@ -1545,7 +1562,7 @@ section.special_offers .section_heading {
 	}
 
 	.xigolo_banner .heading1 {
-	    top: 150px;
+	    top: 120px;
 	    font-size: initial;
 	    line-height: initial;
 	}
@@ -1789,6 +1806,16 @@ section.special_offers .section_heading {
 	    margin-bottom: 20px !important;
 	}
 
+	.chat_sidebar {
+	    background: rgb(23, 45, 103);
+	    width: 100%;
+	    margin-top: 53px;
+	    height: calc(100% - 96px);
+	}
+
+	.chat_sidebar .message_box {
+	    margin-right: -27px;
+	}
 }
 
 @media all and (max-width: 400px)  {
